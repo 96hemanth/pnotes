@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:pnotes/firebase_options.dart';
 import 'package:pnotes/views/login_view.dart';
+import 'package:pnotes/views/notes_view.dart';
 import 'package:pnotes/views/register_view.dart';
 import 'package:pnotes/views/verify_email_view.dart';
 
@@ -44,7 +45,7 @@ class HomePage extends StatelessWidget {
               print("Email verification still pending.");
               return const VerifyEmailView();
             }
-            return const Text("Done");
+            return const NotesView();
           default:
             return const CircularProgressIndicator();
         }
