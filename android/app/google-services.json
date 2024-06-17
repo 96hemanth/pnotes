@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699601175216",
+    "project_id": "pnotes-596",
+    "storage_bucket": "pnotes-596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699601175216:android:d828f80631948414d6b175",
+        "android_client_info": {
+          "package_name": "com.colld.pnotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5TS-zBJDy2ZXzIeSKmbRsd5SbFChcues"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
