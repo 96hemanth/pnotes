@@ -5,6 +5,7 @@ import 'package:pnotes/firebase_options.dart';
 import 'package:pnotes/views/login_view.dart';
 import 'package:pnotes/views/register_view.dart';
 import 'package:pnotes/views/verify_email_view.dart';
+import 'package:pnotes/views/logout_view.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -44,7 +45,7 @@ class HomePage extends StatelessWidget {
               print("Email verification still pending.");
               return const VerifyEmailView();
             }
-            return const Text("Done");
+            return const LogoutView();
           default:
             return const CircularProgressIndicator();
         }
